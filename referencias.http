@@ -1,0 +1,33 @@
+###
+
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/jogos
+
+
+###
+
+GET http://localhost:3000/filmes
+
+
+###
+
+POST http://localhost:3000/filmes
+Content-Type: application/json
+
+{
+    "nome": "todo mundo em panico",
+    "tipo": "comédia"
+}
+
+###
+
+POST http://localhost:3000/jogos
+Content-Type: application/json
+
+{
+    "nome": "minecraft",
+    "tipo": "casual"
+}
